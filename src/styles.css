@@ -232,6 +232,7 @@ img { display: block; max-width: 100%; }
 .hero-logo-wrap {
   display: flex;
   justify-content: center;
+  align-items: center;
 }
 
 .hero-logo-clean {
@@ -455,10 +456,6 @@ img { display: block; max-width: 100%; }
 
   .hero {
     padding-top: 40px;
-  }
-
-  .hero-logo-ring {
-    width: min(320px, 100%);
   }
 
   .royal-logo-large {
