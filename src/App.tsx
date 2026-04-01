@@ -54,7 +54,7 @@ export default function App() {
       <header className="topbar">
         <div className="container topbar-inner">
           <div className="brand">
-            <RoyalLogo />
+            <img src="/logo.png" alt="Kathi Kingdom logo" className="header-logo" />
             <div>
               <div className="brand-name">Kathi Kingdom</div>
               <div className="brand-sub">Nagpur, Maharashtra</div>
