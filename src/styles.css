@@ -234,31 +234,17 @@ img { display: block; max-width: 100%; }
   justify-content: center;
 }
 
-.hero-logo-ring {
-  width: min(420px, 100%);
-  aspect-ratio: 1 / 1;
-  display: grid;
-  place-items: center;
-  border-radius: 999px;
-  border: 1px solid rgba(251, 191, 36, 0.18);
-  background: linear-gradient(135deg, rgba(254, 240, 175, 0.1), rgba(245, 158, 11, 0.1));
-  box-shadow: 0 0 80px rgba(245, 158, 11, 0.15);
-  position: relative;
+.hero-logo-clean {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-.hero-logo-ring::before,
-.hero-logo-ring::after {
-  content: "";
-  position: absolute;
-  border-radius: 999px;
-  inset: 24px;
-  border: 1px dashed rgba(251, 191, 36, 0.16);
-}
-
-.hero-logo-ring::after {
-  inset: 48px;
-  border-style: solid;
-  opacity: 0.5;
+.hero-logo-clean img {
+  width: 260px;
+  height: 260px;
+  object-fit: contain;
+  filter: drop-shadow(0 10px 25px rgba(245, 158, 11, 0.3));
 }
 
 .stats-section {
@@ -456,6 +442,12 @@ img { display: block; max-width: 100%; }
   .social-grid {
     grid-template-columns: 1fr;
   }
+
+  .hero-logo-clean img {
+    width: 220px;
+    height: 220px;
+  }
+}
 
   .nav {
     display: none;
