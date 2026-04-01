@@ -100,8 +100,8 @@ export default function App() {
             </div>
 
             <div className="hero-logo-wrap">
-              <div className="hero-logo-ring">
-                <RoyalLogo large />
+              <div className="hero-logo-clean">
+                <img src="/logo.png" alt="Kathi Kingdom logo" />
               </div>
             </div>
           </div>
