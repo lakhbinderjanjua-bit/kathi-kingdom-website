@@ -477,4 +477,19 @@ img { display: block; max-width: 100%; }
   background: #f5ecdf;
   padding: 4px;
   border: 2px solid #f2c458;
+  display: block;
+  flex-shrink: 0;
+}
+
+.hero-logo-clean {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.hero-logo-clean img {
+  width: 260px;
+  height: 260px;
+  object-fit: contain;
+  display: block;
 }
