@@ -218,7 +218,7 @@ export default function App() {
       <footer className="footer">
         <div className="container footer-inner">
           <div className="brand">
-            <RoyalLogo />
+            <img src="/logo.png" alt="Kathi Kingdom logo" className="header-logo" />
             <div>
               <div className="brand-name footer-brand">Kathi Kingdom</div>
               <div className="brand-sub footer-sub">Cloud kitchen in Nagpur, Maharashtra</div>
