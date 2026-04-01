@@ -12,9 +12,13 @@
   --cream: #f5ecdf;
 }
 
-* { box-sizing: border-box; }
+* {
+  box-sizing: border-box;
+}
 
-html { scroll-behavior: smooth; }
+html {
+  scroll-behavior: smooth;
+}
 
 body {
   margin: 0;
@@ -26,11 +30,19 @@ body {
   color: var(--text);
 }
 
-a { color: inherit; text-decoration: none; }
+a {
+  color: inherit;
+  text-decoration: none;
+}
 
-img { display: block; max-width: 100%; }
+img {
+  display: block;
+  max-width: 100%;
+}
 
-.site-shell { min-height: 100vh; }
+.site-shell {
+  min-height: 100vh;
+}
 
 .container {
   width: min(1120px, calc(100% - 32px));
@@ -89,6 +101,18 @@ img { display: block; max-width: 100%; }
 .nav a:hover,
 .footer-links a:hover {
   color: #ffd978;
+}
+
+.header-logo {
+  width: 48px;
+  height: 48px;
+  object-fit: contain;
+  border-radius: 50%;
+  background: #f5ecdf;
+  padding: 4px;
+  border: 2px solid #f2c458;
+  display: block;
+  flex-shrink: 0;
 }
 
 .royal-logo {
@@ -202,7 +226,9 @@ img { display: block; max-width: 100%; }
   transition: transform 0.15s ease, opacity 0.15s ease, background 0.15s ease;
 }
 
-.btn:hover { transform: translateY(-1px); }
+.btn:hover {
+  transform: translateY(-1px);
+}
 
 .btn-primary {
   background: linear-gradient(90deg, #f5bf42, #f39c45);
@@ -245,6 +271,7 @@ img { display: block; max-width: 100%; }
   width: 260px;
   height: 260px;
   object-fit: contain;
+  display: block;
   filter: drop-shadow(0 10px 25px rgba(245, 158, 11, 0.3));
 }
 
@@ -433,7 +460,9 @@ img { display: block; max-width: 100%; }
   background: #0d0907;
 }
 
-.footer-brand { color: #fff; }
+.footer-brand {
+  color: #fff;
+}
 
 @media (max-width: 900px) {
   .hero-grid,
@@ -448,7 +477,6 @@ img { display: block; max-width: 100%; }
     width: 220px;
     height: 220px;
   }
-}
 
   .nav {
     display: none;
@@ -468,28 +496,4 @@ img { display: block; max-width: 100%; }
     align-items: flex-start;
     flex-direction: column;
   }
-}
-.header-logo {
-  width: 48px;
-  height: 48px;
-  object-fit: contain;
-  border-radius: 50%;
-  background: #f5ecdf;
-  padding: 4px;
-  border: 2px solid #f2c458;
-  display: block;
-  flex-shrink: 0;
-}
-
-.hero-logo-clean {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.hero-logo-clean img {
-  width: 260px;
-  height: 260px;
-  object-fit: contain;
-  display: block;
 }
